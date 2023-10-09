@@ -2,7 +2,7 @@
 #include <string.h>
 
 
-void main() {
+int main() {
     
     /* 
      jika kita tidak menginisiasi berapa buffer size di variable string
@@ -61,6 +61,8 @@ void main() {
     fungsi-fungsi string standar seperti strlen, strcpy, strcat, dan sebagainya
     untuk beroperasi dengan benar.
     */
+
+   return 0;
 
 
 }

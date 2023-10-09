@@ -6,7 +6,7 @@ void swap(int x ,int y) {
     y = temp;
 }
 
-void main() {
+int main() {
     int x = 10;
     int y = 5;
 
@@ -14,4 +14,5 @@ void main() {
     // variable nya beda linkungan boss, ya gak bisa di swaplah
     printf("ini x = %d\n", x);
     printf("ini y = %d\n", y);
+    return 0;
 }
