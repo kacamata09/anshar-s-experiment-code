@@ -15,7 +15,7 @@ def kataBaikChecker(kata):
         return "tidak baik bro"
 
     
-comment = 'anjim'
+comment = input("Masukkan comment anda : ")
 dahlah = filterComment(comment, filterKata)
 yaaa = filterComment(comment, kataBaikChecker)
 print(dahlah)
